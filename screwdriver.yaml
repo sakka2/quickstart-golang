@@ -15,8 +15,6 @@ shared:
     # accessible by another environment variable that we can reference instead
     # of hard-coding it here
     GOPATH: /sd/workspace
-  secrets:
-    - SOURCE_CLEAR_TOKEN
 
 # Jobs definition block
 # All pipelines have "main" by default, and is implicitly defined.
