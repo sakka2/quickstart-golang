@@ -17,7 +17,7 @@ shared:
     GOPATH: /sd/workspace
     SOURCE_CLEAR_BUILD_TYPE: govendor
   secrets:
-    SOURCE_CLEAR_TOKEN
+    - SOURCE_CLEAR_TOKEN
 
 # Jobs definition block
 # All pipelines have "main" by default, and is implicitly defined.
